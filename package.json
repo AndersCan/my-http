@@ -1,0 +1,25 @@
+{
+  "name": "my-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsm src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/static": "^6.4.0",
+    "@hyperswarm/dht": "^5.0.25",
+    "bind-easy": "^1.1.2",
+    "fastify": "^4.0.3",
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "prettier": "^2.7.1",
+    "tsm": "^2.2.1"
+  }
+}

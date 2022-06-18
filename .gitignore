@@ -1,0 +1,4 @@
+node_modules/
+*.flac
+*.jpg
+.DS_Store
